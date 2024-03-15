@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/66/9a/36/669a36ebadf575d1699c87c09e10b4d2.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+#logo img{ 
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 70%;
+} 
+
+nav{
+    height: 100px;
+}
+nav h1{
+    float: initial;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #672626;
+}
+
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+
+nav ul li a{
+    color: rgb(164, 81, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+
+nav ul li a:hover{
+    background-color: rgba(224, 200, 130, 0.457);
+    transition: 0.3s ease;
+}
+
+nav ul li .active{
+    background-color: #dec7a7be;
+}
+
+.pet{
+    width: 50%;
+    margin:left;
+    text-align: left;
+    transform: translate(25vh);
+}
+
+.pet h1{
+    font-size: 40px;
+    color:rgb(164, 81, 36);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    padding-top: 60px;
+}
+#thumb{
+    left: 900px;
+    top: 60px;
+    position: fixed;
+    transform: scale(0.8);
+}
+.pet h4{
+    font-family: 18px;
+    color: rgb(119, 81, 23);
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+
+.pet .btn{
+    color: rgb(164, 81, 36);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 15px 25px;
+    letter-spacing: 1.5px;
+    background-color: blanchedalmond;
+}
+
+.pet .btn:hover{
+    background-color: rgba(224, 200, 130, 0.457);
+    transition: 0.3s ease;
+}
+
+.top .icons{
+    position: relative;
+    bottom: 10px;
+    left: 180px; 
+    font-size: 20px;
+}
